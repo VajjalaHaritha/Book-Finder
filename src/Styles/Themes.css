@@ -1,0 +1,43 @@
+/* ===============================
+   Global Theme Styles
+   =============================== */
+
+/* Background (Bookshelf image) */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: url("https://images.unsplash.com/photo-1521587760476-6c12a4b040da")
+              no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* App title */
+.app-title {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin: 20px 0;
+}
+
+/* Loading and error states */
+.loading {
+  text-align: center;
+  font-weight: bold;
+  color: #2980b9;  /* Blue for loading */
+  font-size: 1.2rem;
+}
+
+.error {
+  text-align: center;
+  font-weight: bold;
+  color: #e74c3c;  /* Red for errors */
+  font-size: 1.2rem;
+}
+
+/* Text defaults */
+h3, p {
+  color: #2c3e50;
+}

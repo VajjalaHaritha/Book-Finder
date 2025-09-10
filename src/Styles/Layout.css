@@ -1,0 +1,25 @@
+/* src/styles/layout.css */
+/* Main app wrapper */
+/* Full screen overlay for the app */
+.app-container {
+  width: 100%;
+  min-height: 100vh;                 /* full screen height */
+  background: rgba(255, 255, 255, 0.85); /* transparent white overlay */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* Mobile: 1 card per row */
+@media (max-width: 600px) {
+  .book-grid {
+    grid-template-columns: 1fr;
+  }
+}
