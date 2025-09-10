@@ -16,3 +16,11 @@ A simple and responsive Book Finder application built with React and CSS3, using
       React (Functional Components + Hooks)
       CSS3 (Flexbox + Grid)
       Open Library API
+📝 Future Enhancements
+       Advanced search filters (author, year, genre)
+       Book details modal with full information
+       Favorites/bookmark functionality
+       Search history
+       Dark mode toggle
+       Pagination for large result sets
+       Author search capability
